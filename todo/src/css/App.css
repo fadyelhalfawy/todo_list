@@ -127,3 +127,14 @@ h1 {
   opacity: 0.4;
   cursor: pointer;
 }
+
+@media screen and (min-width: 374px) {
+  h1 {
+    width: 77%;
+  }
+
+  .todo-input {
+    width: 232px;
+  }
+
+}
