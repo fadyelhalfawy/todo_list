@@ -128,7 +128,7 @@ h1 {
   cursor: pointer;
 }
 
-@media screen and (min-width: 280px) and (max-width: 373px){
+@media screen and (min-width: 280px) and (max-width: 359px) {
   h1{
     font-size: 0.71rem;
   }
@@ -139,16 +139,29 @@ h1 {
 
 }
 
-@media screen and (min-width: 359px) and (max-width: 373px){
+@media screen and (min-width: 360px) and (max-width: 373px) {
+  h1{
+    font-size: 1.0rem;
+  }
+
   .todo-input {
     width: 195px;
   }
 
 }
 
+@media screen and (min-width: 374px) and (max-width: 412px) {
+  h1{
+    font-size: 1.06rem;
+  }
 
+  .todo-input {
+    width: 210px;
+  }
 
-@media screen and (min-width: 374px) and (max-width: 412px){
+}
+
+@media screen and (min-width: 374px) and (max-width: 412px) {
   h1{
     font-size: 1.06rem;
   }
